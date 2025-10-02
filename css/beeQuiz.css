@@ -1,0 +1,61 @@
+
+
+@font-face {
+    font-family: "beeQuizHeader";
+    src: url("src/beeQuiz/Pinyon_Script/PinyonScript-Regular.ttf");
+}
+
+#bee-quiz {
+    width: min(600px, 90vw);
+    background-image: url("src/beeQuiz/background.png");
+    background-size: cover;
+    padding: 3rem;
+    border-radius: 25px;
+    margin-inline: auto;
+}
+
+#bee-quiz h2 {
+    font-family: beeQuizHeader;
+    text-align: center;
+    font-size: 5rem;
+    color: aliceblue;
+}
+
+#bee-quiz p {
+    color: aliceblue;
+    text-align: center;
+}
+
+#bee-quiz span {
+    font-family: beeQuizHeader;
+    font-size: 3rem;
+}
+
+#bee-quiz-prompt div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+#bee-quiz-prompt label {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 10px;
+    border: solid white 2px;
+    border-radius: 25px;
+}
+
+#bee-quiz-input-yes, #bee-quiz-input-no {
+    cursor: pointer;
+}
+
+#bee-quiz-display-yes, #bee-quiz-display-no {
+    display: none;
+}
+
+#bee-quiz-display-yes img, #bee-quiz-display-no img {
+    width: 100%;
+    border-radius: 15px;
+}
