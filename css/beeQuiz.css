@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "beeQuizHeader";
-    src: url("src/beeQuiz/Pinyon_Script/PinyonScript-Regular.ttf");
+    src: url("../src/beeQuiz/Pinyon_Script/PinyonScript-Regular.ttf");
 }
 
 #bee-quiz {
     width: min(600px, 90vw);
-    background-image: url("src/beeQuiz/background.png");
+    background-image: url("../src/beeQuiz/background.png");
     background-size: cover;
     padding: 3rem;
     border-radius: 25px;
