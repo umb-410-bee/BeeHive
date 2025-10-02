@@ -1,0 +1,4 @@
+1. Last four digits of student ID: 7611
+2. First Name and Last Initial: Mahdi A
+3. Skills: Python, Java, C, and cooking
+4. Preferred Roles: I intend to become a teacher at the highschool level, if that is what the question is asking
