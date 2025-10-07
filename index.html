@@ -1,24 +1,15 @@
 <!DOCTYPE html>
-
-
-
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bee</title>
-    <link href="css/style.css" rel="stylesheet">
-
-    <div class="topnav">   
-    <!--Mahdi's header nav bar wip-->
-        <b></b>
-        <a class="active" href="index.html">Home</a>
-        <a href="#quiz">Quiz</a>
-        <a href="canvas-guy.html">Canvas Guy</a>
-        <a href="#about" href="about.html">About</a>
-
-
-        <style>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Bee </title>
+<link href="css/style.css" rel="stylesheet">
+<link href="css/beeQuiz.css" rel="stylesheet">
+<!-- Thea's favicon contribution -->
+<link rel="icon" href="images/favicon.ico">
+<script type="text/javascript" src="src/beeQuiz/quiz.js" defer></script>
+<style>
         .topnav {
             overflow: hidden;
             background-color: rgb(255, 231, 75);
@@ -36,70 +27,63 @@
             background-color:goldenrod;
             color:black
         }
-        .topnav a:hover {
+        .topnav a: hover {
             background-color: rgb(148, 112, 20);
             color:black;
         }
-        
+        html{
+		/* Thea's bee cursor contribution */
+		cursor: url("images/beecursor.png") 15 15, default; 
+		}
         body {
-            margin: 0;
-            padding: 0;
+            background: black;
+ 			color: white;
+  			margin: 0;
+ 			padding: 0;
         }
-        
         main {
             padding: 1rem;
         }
-        
+		code {
+			line-height: 1.15;
+			-webkit-text-size-adjust: 100%;
+			--combo-ctn-padding: 0.25rem;
+			--combo-wrapper-padding: 0.25rem;
+			--combo-keywords-ctn-height: 2rem;
+			--main-column-max-width: 700px;
+			--max-emoji-ctn-height: 75vh;
+			--sensitive-entry-blur-display: flex;
+			--use: 20px;
+			--doNotUse: 0px;
+			--fsAncillary: var(--doNotUse);
+			font-family: 'Roboto', sans-serif;
+			-webkit-user-modify: read-write;
+			overflow-wrap: break-word;
+			-webkit-line-break: after-white-space;
+			max-height: var(--max-emoji-ctn-height);
+			overflow-y: auto;
+			width: 100%;
+			word-break: break-word;
+			padding: var(--combo-wrapper-padding);
+			min-height: 1.9rem;
+			font-size: max(min(1rem, 1.7391304347826086vw, calc(1.7391304347826086*var(--main-column-max-width)/100)), 0.7rem);
+			text-align: left;
+			white-space: pre;
+		}
+</style>
 
-        </style>
-    </div>
-    
-    <style>
-html{
-cursor: url("images/beecursor.png") 15 15, default; 
-}
-body {
-  background: black;
-  color: white;
-}
-code {
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    --combo-ctn-padding: 0.25rem;
-    --combo-wrapper-padding: 0.25rem;
-    --combo-keywords-ctn-height: 2rem;
-    --main-column-max-width: 700px;
-    --max-emoji-ctn-height: 75vh;
-    --sensitive-entry-blur-display: flex;
-    --use: 20px;
-    --doNotUse: 0px;
-    --fsAncillary: var(--doNotUse);
-    font-family: 'Roboto', sans-serif;
-    -webkit-user-modify: read-write;
-    overflow-wrap: break-word;
-    -webkit-line-break: after-white-space;
-    max-height: var(--max-emoji-ctn-height);
-    overflow-y: auto;
-    width: 100%;
-    word-break: break-word;
-    padding: var(--combo-wrapper-padding);
-    min-height: 1.9rem;
-    font-size: max(min(1rem, 1.7391304347826086vw, calc(1.7391304347826086*var(--main-column-max-width)/100)), 0.7rem);
-    text-align: left;
-    white-space: pre;
-}
-    </style>
-
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="icon" href="favicon.ico">
-	<link href="css/beeQuiz.css" rel="stylesheet">
-	<script type="text/javascript" src="src/beeQuiz/quiz.js" defer></script>
 </head>
-
-
-
 <body>
-    <code>
+  <div class="topnav">   
+	<!--Mahdi's header nav bar wip-->
+		<b></b>
+		<a class="active" href="index.html">Home</a>
+		<a href="#quiz">Quiz</a>
+		<a href="canvas-guy.html">Canvas Guy</a>
+    <a href="about.html">About</a>
+
+</div>
+	<code>
       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢧⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⣰⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢣⡀⠀⠀⠉⠑⢄⠀⠀⢀⠖⠉⠀⠀⠀⣴⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -242,17 +226,7 @@ ___\\.~~-.-~|     .-~_
             <button onclick="window.open('simlink/info_6791.txt', '_blank')">View Info</button>
         </div>
     </div>
-    <canvas></canvas>
-    <script>
-      const canvas = document.querySelector('canvas');
-      const context = canvas.getContext('2d');
-      function render(angle) {
-      }
-      window.addEventListener('mousemove', (e) => {
-      });
-    </script>
-
-    <section id="bee-quiz">
+	<section id="bee-quiz">
         <h2>Are you a bee?</h2>
         <div id="bee-quiz-prompt">
             <p>Answer my questions (?) three (???) and today we'll see (?????) if your a bee</p>
@@ -278,6 +252,5 @@ ___\\.~~-.-~|     .-~_
             <p>Shame!<br>(I thought it'd be funny to close the window if you're not a bee, but the client didn't want that and due to security reasons I just can't do that anyways.)</p>
         </div>
     </section>
-  
 </body>
 </html>
