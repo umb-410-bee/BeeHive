@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bee Quiz - Bee</title>
+    <link href="css/main.css" rel="stylesheet">
+	<link href="css/beeQuiz.css" rel="stylesheet">
+	<script type="text/javascript" src="src/beeQuiz/quiz.js" defer></script>
+</head>
+
+
+
+<body>
+
+    <div class="topnav">
+    <!--Mahdi's header nav bar wip-->
+        <b></b>
+        <a class="active" href="index.html">Home</a>
+        <a href="beeQuiz.html">Quiz</a>
+        <a href="canvas-guy.html">Canvas Guy</a>
+        <a href="#about">About</a>
+    </div>
+
+    <div id="background"></div>
+
+    <section id="bee-quiz">
+        <h2>Are you a bee?</h2>
+        <div id="bee-quiz-prompt">
+            <p>Answer my questions (?) three (???) and today we'll see (?????) if your a bee</p>
+            <div>
+                <label id="bee-quiz-input-yes">
+                    <p>Yes I am a bee</p>
+                </label>
+                <label id="bee-quiz-input-no">
+                    <p>No I amn't a bee. how dare thee make thine assumption, you swine!?</p>
+                </label>
+            </div>
+        </div>
+
+        <div id="bee-quiz-display-yes">
+            <p><span>Result...Yes!</span><br>You are a bee</p>
+            <img src="src/beeQuiz/yes.jpg">
+            <p>Congratulations!</p>
+            <a href="https://bearsmart.org/live/bear-deterrents">Protect your Honey!<br>[External Page]</a>
+        </div>
+
+        <div id="bee-quiz-display-no">
+            <p><span>Result...Uh oh!</span><br>You are not bee</p>
+            <img src="src/beeQuiz/no.jpg">
+            <p>Shame!<br>(I thought it'd be funny to close the window if you're not a bee, but the client didn't want that and due to security reasons I just can't do that anyways.)</p>
+            <a href="https://thebeeconservancy.org/donate/">Here's something that can help!<br>[External Page]</a>
+        </div>
+    </section>
+  
+</body>
+</html>

@@ -1,11 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Mea+Culpa&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Domine", serif;
+}
 
 body {
   background: black;
   color: white;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255, 231, 75);
+}
+.topnav a {
+    float: left;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.topnav a.active {
+    background-color:goldenrod;
+    color:black
+}
+.topnav a:hover {
+    background-color: rgb(148, 112, 20);
+    color:black;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 1rem;
+}
 
 code {
     line-height: 1.15;
@@ -32,7 +66,7 @@ code {
     font-size: max(min(1rem, 1.7391304347826086vw, calc(1.7391304347826086*var(--main-column-max-width)/100)), 0.7rem);
     text-align: left;
     white-space: pre;
-}
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Mea+Culpa&display=swap');
 
 h1 {
   display: block;
