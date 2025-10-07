@@ -1,13 +1,37 @@
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Domine", serif;
+}
 
 @font-face {
     font-family: "beeQuizHeader";
     src: url("../src/beeQuiz/Pinyon_Script/PinyonScript-Regular.ttf");
 }
 
+@keyframes background-pan {
+        0% {
+            background-position: 0% 0%;
+        }
+        100% {
+            background-position: 100% 200%;
+        }
+}
+
+#background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../src/beeQuiz/background-page.png");
+    background-size: 10%;
+    animation: background-pan 180s linear infinite;
+    z-index: -1;
+}
+
 #bee-quiz {
     width: min(600px, 90vw);
-    background-image: url("../src/beeQuiz/background.png");
+    background-image: url("../src/beeQuiz/background-quiz.png");
     background-size: cover;
     padding: 3rem;
     border-radius: 25px;
