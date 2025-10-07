@@ -1,0 +1,13 @@
+1. Last Four Digits of Student ID: 3297
+
+2. First Name and Last Name: Keertan P
+
+3. Skills
+	Java,
+	Python - Financial Analysis using Plotly, Seaborn, Pandas
+	C
+
+4. Preferred Roles:
+	Quantitative Finance,
+	Model Validation Analyst,
+	Data Scientist

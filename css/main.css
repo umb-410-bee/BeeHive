@@ -66,4 +66,44 @@ code {
     font-size: max(min(1rem, 1.7391304347826086vw, calc(1.7391304347826086*var(--main-column-max-width)/100)), 0.7rem);
     text-align: left;
     white-space: pre;
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Mea+Culpa&display=swap');
+
+h1 {
+  display: block;
+  font-family: "Enriqueta", serif;
+}
+
+.employees-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.employee-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  min-width: 200px;
+}
+
+.employee-column h3 {
+  font-family: "Enriqueta", serif;
+  margin: 0 0 15px 0;
+  text-align: center;
+  color: #333;
+}
+
+.employee-column button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
 }
