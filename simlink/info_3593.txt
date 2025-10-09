@@ -1,0 +1,14 @@
+1. Last Four Digits of Student ID:
+03593
+
+2. First Name and Last Initial
+Thea H
+
+3. Skills:
+Programming with R, Python, C, C++, and Java.
+
+4. Preferred Roles:
+Actuary
+Data Scientist
+Quality Assurance Analyst
+Data Analyst

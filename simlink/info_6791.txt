@@ -1,0 +1,19 @@
+1. Last four digits of student ID: 6791
+2. First Name and Last Initial: Jonathan Renan E
+
+3. Skills:
+	Problem Solving
+	Creativity
+	Programming
+		HTML
+		CSS
+		Javascript
+		C
+		C++
+		Python
+	Math
+
+4. Preferred Roles:
+	Tester
+	Coder
+	Designer
