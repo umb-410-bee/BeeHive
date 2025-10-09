@@ -1,0 +1,19 @@
+
+[ ] Not Started
+[-] In Progress
+[+] Complete
+
+===================================================
+
+Done Done Checklist
+
+[+] HTML
+[+] Github Repository
+[+] Emoji/Decal at end of Each Name (Edward)
+[+] Bee Cursor (Thea)
+[+] Navbar (Mahdi)
+[+] About Bee Page (Keertan)
+[+] Bee Quiz (Jonathan)
+[-] Debugging HTML/CSS
+[-] Testing
+[-] Other Artifacts
