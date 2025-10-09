@@ -27,7 +27,7 @@
 }
 html {
     /* Thea's bee cursor contribution */
-    cursor: url(images/beecursor.png) 15 15, default;
+    cursor: url(../images/beecursor.png) 15 15, default;
 }
 body {
     background: black;
@@ -105,3 +105,4 @@ h1 {
   font-size: 14px;
 
 }
+
