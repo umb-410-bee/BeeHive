@@ -1,0 +1,348 @@
+commit b29cce919e2936efc1489be85afccc3f086de950
+Author: StarshineCm <jonathanresponilla@gmail.com>
+Date:   Thu Oct 9 16:48:48 2025 -0400
+
+    Artifacts Directory, done-done.txt Added
+
+commit bc950f2e8f8e2fc15b8c4695c8ea7f242d9da73f
+Merge: 6a553a0 1c9692d
+Author: Edward Gaibor <78832141+gaiborjosue@users.noreply.github.com>
+Date:   Thu Oct 9 16:21:33 2025 -0400
+
+    Merge pull request #26 from umb-410-bee/jonathan
+    
+    Refined Bee Quiz, Added Link in index.html, Removed Quiz from index.h…
+
+commit 1c9692d06fd03cca335a81cf84fc93c3eaa5f6a7
+Author: StarshineCm <jonathanresponilla@gmail.com>
+Date:   Thu Oct 9 16:18:01 2025 -0400
+
+    Refined Bee Quiz, Added Link in index.html, Removed Quiz from index.html (Again)
+
+commit 6a553a0427889b86081659cce84275c89c650cd3
+Merge: e862c2a 55bc651
+Author: Edward Gaibor <78832141+gaiborjosue@users.noreply.github.com>
+Date:   Thu Oct 9 16:14:23 2025 -0400
+
+    Merge pull request #25 from umb-410-bee/theahird-code-patch-3
+    
+    resize beecursor image (too large = won't display)
+
+commit 55bc651a36f84f32190579f6f2e2789fd52f66f7
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Thu Oct 9 16:13:18 2025 -0400
+
+    resize beecursor image (too large = won't display)
+
+commit e862c2a6e07fd49653d37c45fbce384a4462e66f
+Merge: b9bb5d2 6021748
+Author: Edward Gaibor <78832141+gaiborjosue@users.noreply.github.com>
+Date:   Thu Oct 9 15:55:55 2025 -0400
+
+    Merge pull request #24 from umb-410-bee/theahird-code-patch-2
+    
+    Update index.html for cursor syntax error
+
+commit 6021748d9159b2d3be4780586fc10f478dc68322
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Thu Oct 9 15:54:39 2025 -0400
+
+    Update index.html for cursor syntax error
+
+commit b9bb5d2ed270de552ee427ed8457dc747334f2ee
+Merge: 572f5a3 6bdba60
+Author: Ayden Diel <aydendiel@gmail.com>
+Date:   Tue Oct 7 17:21:45 2025 -0400
+
+    Merge pull request #23 from umb-410-bee/theahird-code-patch-1
+    
+    new beecursor
+
+commit 6bdba60acfc51bf47eb29dc48f98929fe10a8b55
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Tue Oct 7 17:20:43 2025 -0400
+
+    new beecursor
+
+commit 572f5a34733a42ccea7b5b5831a67da9ac504889
+Merge: 55bfacb 54dec22
+Author: StarshineC <141589458+StarshineC@users.noreply.github.com>
+Date:   Tue Oct 7 17:17:55 2025 -0400
+
+    Merge pull request #22 from umb-410-bee/thea-3
+    
+    Edit to beecursor image to match black background
+
+commit 54dec22594f605eba8979fc68d306367238b2eb8
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Tue Oct 7 17:16:30 2025 -0400
+
+    Edit to beecursor image to match black background
+
+commit 55bfacbc239cf40d037c8ef4e980585b1b9cc927
+Merge: 0a1f90e d34b7ed
+Author: StarshineC <141589458+StarshineC@users.noreply.github.com>
+Date:   Tue Oct 7 17:01:40 2025 -0400
+
+    Merge pull request #21 from umb-410-bee/thea-2
+    
+    update on beecursor.png
+
+commit d34b7edd31875423e1489f91d93dc006635ba7f8
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Tue Oct 7 16:59:28 2025 -0400
+
+    update on beecursor.png
+
+commit 0a1f90ed55c5ab84675ee145b2d2d3724a1f953b
+Merge: 09cd416 4576f09
+Author: Ayden Diel <aydendiel@gmail.com>
+Date:   Tue Oct 7 16:53:26 2025 -0400
+
+    Merge pull request #20 from umb-410-bee/thea
+    
+    Thea
+
+commit 09cd416450fe133792d2649c8b7d5496f7bf1a44
+Merge: 85b701d 820b4fd
+Author: Ayden Diel <aydendiel@gmail.com>
+Date:   Tue Oct 7 16:52:12 2025 -0400
+
+    Merge pull request #17 from umb-410-bee/jonathan
+    
+    Jonathan made a new Bee Quiz Page
+
+commit 820b4fd763408ae47daacc5061ac83cdcabc64f1
+Merge: d8c29bf 85b701d
+Author: Ayden Diel <aydendiel@gmail.com>
+Date:   Tue Oct 7 16:51:46 2025 -0400
+
+    Merge branch 'main' into jonathan
+
+commit 85b701d4b1e4c5721a96f0baffa5bfc7c6a7ceb6
+Merge: 38f59fa 6961fd7
+Author: Ayden Diel <aydendiel@gmail.com>
+Date:   Tue Oct 7 16:42:02 2025 -0400
+
+    Merge pull request #19 from umb-410-bee/aboutbranchupdate
+    
+    about link to index and about page addition
+
+commit 6961fd77f4ac3fc0d4d6dcb7d2921de6bc4600c3
+Merge: f52bd07 38f59fa
+Author: Ayden Diel <aydendiel@gmail.com>
+Date:   Tue Oct 7 16:41:37 2025 -0400
+
+    Merge branch 'main' into aboutbranchupdate
+
+commit 4576f09626223e09276b8b136ef86fb8a999ce20
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Tue Oct 7 16:41:22 2025 -0400
+
+    mv beecursor.png to images/
+
+commit 38f59fa3a70147a78c0be32326b6a8ef18f667aa
+Merge: c45d570 6743f71
+Author: Ayden Diel <aydendiel@gmail.com>
+Date:   Tue Oct 7 16:39:00 2025 -0400
+
+    Merge pull request #18 from umb-410-bee/thea-1
+    
+    Resolve conflicting double style tags
+
+commit f52bd079cc5597e06042846d182df521b803398b
+Author: kepatel <keertan.patel001@umb.edu>
+Date:   Tue Oct 7 16:37:41 2025 -0400
+
+    about link to index and about page addition
+
+commit 6743f71204e99c01115a9e7b62eedb5cf9f955c1
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Tue Oct 7 16:36:38 2025 -0400
+
+    Resolve conflicting double style tags
+
+commit d8c29bf48d862113ad58ecf4ee1fce554208ae9f
+Merge: c53e313 c45d570
+Author: StarshineC <141589458+StarshineC@users.noreply.github.com>
+Date:   Tue Oct 7 16:35:18 2025 -0400
+
+    Merge branch 'main' into jonathan
+
+commit c53e313fdc045f561fdfbf1674a5d095c291bbf0
+Author: StarshineCm <jonathanresponilla@gmail.com>
+Date:   Tue Oct 7 16:26:38 2025 -0400
+
+    Refined Bee Quiz Page
+
+commit 5478a6ba8165a361e290170d0055fcf5e32d8f2d
+Merge: 85e8511 c45d570
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Tue Oct 7 16:22:01 2025 -0400
+
+    Merge pull request #16 from umb-410-bee/main
+    
+    Update thea branch
+
+commit c45d570da0cdf8221527fdb98e90b1121d1b16a4
+Merge: eac0d81 f66f94a
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Tue Oct 7 16:15:06 2025 -0400
+
+    Merge pull request #15 from umb-410-bee/kepatel
+    
+    kepatel images directory / about.html
+
+commit d5eae349850bc5f2f7c0470ad7cce811b6b81436
+Author: StarshineCm <jonathanresponilla@gmail.com>
+Date:   Tue Oct 7 16:14:35 2025 -0400
+
+    Moved Quiz to its own page
+
+commit f66f94a01ed715e7006a5b0702fc7be1562b3adc
+Author: kepatel <keertan.patel001@umb.edu>
+Date:   Tue Oct 7 16:10:43 2025 -0400
+
+    favicon to images
+
+commit c889d019b2ad58e88df23dbe2edcd006a61df47a
+Author: StarshineC <jonathanresponilla@gmail.com>
+Date:   Tue Oct 7 16:10:07 2025 -0400
+
+    Moved the quiz to its own page
+
+commit eac0d814756a026c49863c18d9be134863c409be
+Merge: 82a10ca 85e8511
+Author: Edward Gaibor <78832141+gaiborjosue@users.noreply.github.com>
+Date:   Tue Oct 7 15:53:57 2025 -0400
+
+    Merge pull request #14 from umb-410-bee/thea
+    
+    Thea branch -- bee cursor and symlink fix
+
+commit 85e8511762ba8a0085460ce624c14c53932928b3
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Tue Oct 7 15:51:13 2025 -0400
+
+    Update index.html with beecursor cursor and simlink fix
+
+commit 6748680677f2519de8eeafba89ae33e161059f04
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Tue Oct 7 15:49:49 2025 -0400
+
+    beecursor.png uploaded
+
+commit 82a10caa22c63650b54e4981c5c369c51948c003
+Merge: 194d6d7 7d49a84
+Author: Ayden Diel <aydendiel@gmail.com>
+Date:   Thu Oct 2 21:13:04 2025 -0400
+
+    Merge pull request #12 from umb-410-bee/features/eye-tracking
+    
+    feat: added page with tracking eyes
+
+commit 194d6d7269aea4b0137c4560573bf413e18b5d96
+Merge: ca810db 34a90d1
+Author: Ayden Diel <aydendiel@gmail.com>
+Date:   Thu Oct 2 21:12:53 2025 -0400
+
+    Merge pull request #11 from umb-410-bee/feature/edward
+    
+    Added title and favicon to index.html, introduced employee sections w…
+
+commit 7d49a8434d3ec87d4bfdfe9432a33f200873fa03
+Author: ayden <aydendiel@gmail.com>
+Date:   Thu Oct 2 19:38:52 2025 -0400
+
+    feat: added page with tracking eyes
+
+commit 34a90d18ec39a9bdbcb263e88d0fefa5a5805ca0
+Author: gaiborjosue <gaiborjimenezjosue@gmail.com>
+Date:   Thu Oct 2 17:20:58 2025 -0400
+
+    Added title and favicon to index.html, introduced employee sections with ASCII art, and created corresponding info files for employees. Updated main.css for new styles related to employee display.
+
+commit c20f71b4ea45b854cac054887d80cd5f75733af0
+Author: kepatel <keertan.patel001@umb.edu>
+Date:   Thu Oct 2 17:14:25 2025 -0400
+
+    #6 Created preliminary outline for the About page and moved all images to an images directory.
+
+commit ca810db0de7b9e9d57b1be0e51e5d1db219da1fd
+Merge: 07d58c7 77de717
+Author: Ayden Diel <aydendiel@gmail.com>
+Date:   Thu Oct 2 17:09:15 2025 -0400
+
+    Merge pull request #9 from umb-410-bee/mahdi
+    
+    Added navbar - Mahdi
+
+commit 77de717bb51a2ef7d849b96bd7b060b3acc7c5d9
+Merge: 56650b2 07d58c7
+Author: Ayden Diel <aydendiel@gmail.com>
+Date:   Thu Oct 2 17:08:44 2025 -0400
+
+    Merge branch 'main' into mahdi
+
+commit 07d58c716314c5389c5c490c6e4649e9d11df27d
+Merge: b592a1f 6450c20
+Author: Ayden Diel <aydendiel@gmail.com>
+Date:   Thu Oct 2 17:03:54 2025 -0400
+
+    Merge pull request #10 from umb-410-bee/jonathan
+    
+    Jonathan
+
+commit 6450c202ce158749708fa395710a96e1e987899a
+Author: StarshineCm <jonathanresponilla@gmail.com>
+Date:   Thu Oct 2 16:55:47 2025 -0400
+
+    Reconfigured directories, moved inline css to external css, fixed beeQuiz styles
+
+commit 0135d7998a4ff63de114d5520625458d4c0f4c4a
+Author: StarshineCm <jonathanresponilla@gmail.com>
+Date:   Thu Oct 2 16:47:23 2025 -0400
+
+    I forgot to link the javascript
+
+commit 996a57d94b7fca54e8bda13088c1053d666e3a65
+Author: StarshineCm <jonathanresponilla@gmail.com>
+Date:   Thu Oct 2 16:46:01 2025 -0400
+
+    Initial Bee Quiz Upload
+
+commit b592a1fa6abd25e72ba348a2c9551ba2862021cf
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Thu Oct 2 16:43:19 2025 -0400
+
+    Upload favicon.ico and beecursor.jpg files
+
+commit 56650b22be74d3e589a8798d564795fc0848a301
+Author: mahdialmosawi82 <164242566+mahdialmosawi82@users.noreply.github.com>
+Date:   Thu Oct 2 16:35:39 2025 -0400
+
+    Added navbar - Mahdi
+
+commit 36779f84f9cffa97e0db955377ad0471e6916774
+Author: ayden <aydendiel@gmail.com>
+Date:   Thu Oct 2 16:32:35 2025 -0400
+
+    feat: added index.html
+
+commit fb2d97d0454d875ea85705625e1a27b2838f3506
+Author: ayden <aydendiel@gmail.com>
+Date:   Thu Oct 2 16:27:07 2025 -0400
+
+    docs: added bee to docs
+
+commit c82f9b6dd2ded30e1b16a05da88004728fccbcd1
+Author: ayden <aydendiel@gmail.com>
+Date:   Thu Oct 2 16:26:24 2025 -0400
+
+    docs: wrote readme
+
+commit ca6c6d6e7b4eb9a98dda293a4ef37421c3a23547
+Author: ayden <aydendiel@gmail.com>
+Date:   Thu Oct 2 16:24:26 2025 -0400
+
+    initial commit

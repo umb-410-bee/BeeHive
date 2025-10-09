@@ -16,3 +16,4 @@ Done Done Checklist
 [+] Bee Quiz (Jonathan)
 [-] Debugging HTML/CSS
 [-] Testing
+[-] Other Artifacts

@@ -1,0 +1,65 @@
+[33mcommit b29cce919e2936efc1489be85afccc3f086de950[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32martifacts[m[33m, [m[1;31morigin/artifacts[m[33m)[m
+Author: StarshineCm <jonathanresponilla@gmail.com>
+Date:   Thu Oct 9 16:48:48 2025 -0400
+
+    Artifacts Directory, done-done.txt Added
+
+[33mcommit bc950f2e8f8e2fc15b8c4695c8ea7f242d9da73f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/kepatel[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 6a553a0 1c9692d
+Author: Edward Gaibor <78832141+gaiborjosue@users.noreply.github.com>
+Date:   Thu Oct 9 16:21:33 2025 -0400
+
+    Merge pull request #26 from umb-410-bee/jonathan
+    
+    Refined Bee Quiz, Added Link in index.html, Removed Quiz from index.h…
+
+[33mcommit 1c9692d06fd03cca335a81cf84fc93c3eaa5f6a7[m[33m ([m[1;31morigin/jonathan[m[33m, [m[1;32mjonathan[m[33m)[m
+Author: StarshineCm <jonathanresponilla@gmail.com>
+Date:   Thu Oct 9 16:18:01 2025 -0400
+
+    Refined Bee Quiz, Added Link in index.html, Removed Quiz from index.html (Again)
+
+[33mcommit 6a553a0427889b86081659cce84275c89c650cd3[m
+Merge: e862c2a 55bc651
+Author: Edward Gaibor <78832141+gaiborjosue@users.noreply.github.com>
+Date:   Thu Oct 9 16:14:23 2025 -0400
+
+    Merge pull request #25 from umb-410-bee/theahird-code-patch-3
+    
+    resize beecursor image (too large = won't display)
+
+[33mcommit 55bc651a36f84f32190579f6f2e2789fd52f66f7[m[33m ([m[1;31morigin/theahird-code-patch-3[m[33m)[m
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Thu Oct 9 16:13:18 2025 -0400
+
+    resize beecursor image (too large = won't display)
+
+[33mcommit e862c2a6e07fd49653d37c45fbce384a4462e66f[m
+Merge: b9bb5d2 6021748
+Author: Edward Gaibor <78832141+gaiborjosue@users.noreply.github.com>
+Date:   Thu Oct 9 15:55:55 2025 -0400
+
+    Merge pull request #24 from umb-410-bee/theahird-code-patch-2
+    
+    Update index.html for cursor syntax error
+
+[33mcommit 6021748d9159b2d3be4780586fc10f478dc68322[m[33m ([m[1;31morigin/theahird-code-patch-2[m[33m)[m
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Thu Oct 9 15:54:39 2025 -0400
+
+    Update index.html for cursor syntax error
+
+[33mcommit b9bb5d2ed270de552ee427ed8457dc747334f2ee[m
+Merge: 572f5a3 6bdba60
+Author: Ayden Diel <aydendiel@gmail.com>
+Date:   Tue Oct 7 17:21:45 2025 -0400
+
+    Merge pull request #23 from umb-410-bee/theahird-code-patch-1
+    
+    new beecursor
+
+[33mcommit 6bdba60acfc51bf47eb29dc48f98929fe10a8b55[m[33m ([m[1;31morigin/theahird-code-patch-1[m[33m)[m
+Author: Thea Hird <Thea.Hird001@umb.edu>
+Date:   Tue Oct 7 17:20:43 2025 -0400
+
+    new beecursor
