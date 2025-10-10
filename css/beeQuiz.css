@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Domine", serif;
+    cursor: url(../images/beecursor.png) 15 15, default;
 }
 
 @font-face {
