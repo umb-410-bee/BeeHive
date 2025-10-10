@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Domine", serif;
+    cursor: url(../images/beecursor.png) 15 15, default;
 }
 .topnav {
     overflow: hidden;
@@ -24,10 +25,6 @@
 .topnav a:hover {
     background-color: rgb(148, 112, 20);
     color:black;
-}
-html {
-    /* Thea's bee cursor contribution */
-    cursor: url(images/beecursor.png) 15 15, default;
 }
 body {
     background: black;
