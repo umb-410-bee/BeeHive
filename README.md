@@ -1,4 +1,11 @@
 # README - Bee Group
+Ayden Diel
+Edward Gaibor
+Jonathan Renan Esponilla
+Keertan Patel
+Mahdi Almosawi
+Thea Hird
+
 
 ```
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣤⣴⠶⢶⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
