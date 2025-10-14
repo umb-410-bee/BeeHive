@@ -11,7 +11,7 @@ const background = document.querySelector("#background");
 beeInputYes.addEventListener('click', function() {
     beePrompt.style.display = "none";
     beeDisplayYes.style.display = "block";
-    background.style.animation = "background-pan linear infinite 0.5s";
+    background.style.animation = "background-pan linear infinite 3s";
 })
 
 beeInputNo.addEventListener('click', function() {
