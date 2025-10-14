@@ -39,3 +39,6 @@
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢻⡿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ```
+
+
+Mahdi: For this project, my main contribution was the navigation bar for the site. First and foremost, I ensured it was functional in allowing the user to access any of the 4 pages, home, about, beequiz, and canvas-guy, from any page they are on. Next was ensuring it aesthetically matched the page, giving it a yellow color scheme, with a slightly darker yellow that highlights whichever page the user is currently viewing, as well as another darker yellow for any of the buttons the user is hovering their mouse over, to add responsiveness to the users actions. I was also responsible for fixing some of the overall style issues and made sure the general format (margins, navbar size and border) was unified accross all pages.
