@@ -25,6 +25,46 @@ Github
 After feedback from the client, the artifacts were moved onto Github via each individual group. With several tasks created and pushed, we completed working on the website which was deployed on:
 https://umb-410-bee.github.io/BeeHive/
 
+Here is a commit history on Github:
+Update README.md
+theahird-code
+44 minutes ago
+Merge pull request #44 from umb-410-bee/mahdi
+Commits on Oct 10, 2025
+
+
+Update canvas-guy.html
+changes to about.html and path for beecursor
+updated filepath for beecursor
+Merge pull request #32 from umb-410-bee/mahdi
+Merge branch 'main' into mahdi
+Commits on Oct 9, 2025
+
+
+Merge pull request #33 from umb-410-bee/artifacts
+Merge pull request #30 from umb-410-bee/kepatel
+deleted style tags since css is now stylesheet linked
+Merge pull request #28 from umb-410-bee/kepatel
+Update main.css
+resize beecursor image (too large = won't display)
+Update index.html for cursor syntax error
+Commits on Oct 7, 2025
+
+
+new beecursor
+Edit to beecursor image to match black background
+update on beecursor.png
+mv beecursor.png to images/
+Resolve conflicting double style tags
+Merge pull request #16 from umb-410-bee/main
+Merge pull request #15 from umb-410-bee/kepatel
+Update index.html with beecursor cursor and simlink fix
+beecursor.png uploaded
+Commits on Oct 2, 2025
+
+
+Upload favicon.ico and beecursor.jpg files
+
 
 ```
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣤⣴⠶⢶⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
