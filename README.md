@@ -2,6 +2,18 @@
 Ayden Diel
 
 Edward Gaibor
+* I was mostly owning front-end styling and UX polish.
+* I designed the creative touches (ASCII bees), then converted everyone’s hrefs into button-style links based on the professor’s feedback.
+* I wired member info `.txt` links—started with symlinks on the school server and later moved to straightforward links once we migrated to GitHub.
+* I wrote/used quick checks: a Python script to verify names in `index.html`, and later browser checks to confirm the deployed page shows the ASCII bees and working buttons.
+* On the infra side, I initialized our early repo on the server, proposed a branch workflow (`name/test`), and merged teammates’ changes one by one.
+* I ran into a ton of permission headaches on the campus server (group ownership, SGID, ACLs, `core.sharedRepository`, refs/objects perms). That slowed everyone down.
+* To unblock collaboration, we created a fresh shared repo (BeeHive) with the right group settings, and I did my work on `feature/edward` (ASCII bees + button links), which got merged.
+* I pushed for moving the whole class to GitHub. I suggested org-scoped repos, set teammate permissions, and created a GitHub Projects board so we could track sprints/issues transparently.
+* I demoed that setup to the class so Group Apple could mirror it.
+* I opened a PR with my UI changes, got it merged, and documented how to test the deployed site (verify ASCII bees, click member buttons, confirm everything loads).
+* I presented who I am, what we built, my role on the team, and our group progress. Lately I’ve been focused on deployment hygiene and keeping the front end clean and consistent.
+* Net impact: I helped stabilize the workflow (branches/PRs + project board), resolved collaboration pain by moving to GitHub, and improved the site’s visual identity so the team can iterate faster.
 
 Jonathan Renan Esponilla
 
