@@ -6,29 +6,7 @@
     <title>Canvas Guy</title>
     <link href="css/main.css" rel="stylesheet">
     <style>
-      body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      .topnav {
-        display: flex;
-        gap: 0.5rem;
-        padding: 0.75rem 1rem;
-        background-color: rgb(255, 231, 75);
-      }
-      .topnav a {
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        font-size: 17px;
-        padding: 0.5rem 0.75rem;
-      }
-      .topnav a:hover,
-      .topnav a.active {
-        background-color: goldenrod;
-        color: black;
-      }
+      
       main {
         flex: 1;
         display: flex;
@@ -77,45 +55,10 @@
     <!--Mahdi's header nav bar wip-->
         <b></b>
         <a href="index.html">Home</a>
-        <a href="#quiz">Quiz</a>
+        <a href="beeQuiz.html">Quiz</a>
         <a class="active" href="canvas-guy.html">Canvas Guy</a>
-        <a href="#about">About</a>
+        <a href="about.html">About</a>
 
-
-        <style>
-        .topnav {
-            overflow: hidden;
-            background-color: rgb(255, 231, 75);
-        }
-        .topnav a {
-            float: left;
-             color: rgb(0, 0, 0);
-             text-align: center;
-             padding: 14px 16px;
-             text-decoration: none;
-             font-size: 17px;
-             font-family: Arial, Helvetica, sans-serif;
-        }
-        .topnav a.active {
-            background-color:goldenrod;
-            color:black
-        }
-        .topnav a:hover {
-            background-color: rgb(148, 112, 20);
-            color:black;
-        }
-        
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        
-        main {
-            padding: 1rem;
-        }
-        
-
-        </style>
     </div>
     <main>
       <canvas id="canvas-guy" width="500" height="500" aria-label="Canvas rendering with interactive eye tracking"></canvas>
@@ -124,7 +67,7 @@
       const canvas = document.getElementById('canvas-guy');
       const ctx = canvas.getContext('2d');
       const photo = new Image();
-      photo.src = 'guy.jpg';
+      photo.src = 'images/guy.jpg';
 
       const center = { x: canvas.width / 2, y: canvas.height / 2 };
       const eyeRadius = 20;
