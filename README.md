@@ -13,7 +13,7 @@ Edward Gaibor
 * I demoed that setup to the class so Group Apple could mirror it.
 * I opened a PR with my UI changes, got it merged, and documented how to test the deployed site (verify ASCII bees, click member buttons, confirm everything loads).
 * I presented who I am, what we built, my role on the team, and our group progress. Lately I’ve been focused on deployment hygiene and keeping the front end clean and consistent.
-* Net impact: I helped stabilize the workflow (branches/PRs + project board), resolved collaboration pain by moving to GitHub, and improved the site’s visual identity so the team can iterate faster.
+* Net impact: I helped stabilize the workflow (branches/PRs + project board), resolved collaboration pain by helping moving to GitHub, and improved the site’s visual identity so the team can have a more structured way of displaying their info.txt.
 
 Jonathan Renan Esponilla
 
