@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Guy</title>
+    <link href="css/main.css" rel="stylesheet">
+    <style>
+      
+      main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 1rem 3rem;
+        gap: 1.5rem;
+        text-align: center;
+      }
+      canvas {
+        border: 2px solid goldenrod;
+        border-radius: 12px;
+        background: #202020;
+        max-width: 90vw;
+      }
+      .hint {
+        max-width: 500px;
+        line-height: 1.5;
+      }
+      #eye-form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+      }
+      #eye-form fieldset {
+        border: 2px solid goldenrod;
+        border-radius: 8px;
+        padding: 0.75rem 1rem;
+        min-width: 200px;
+      }
+      #eye-form label {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        margin-right: 0.5rem;
+      }
+      #eye-form input[type='number'] {
+        width: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">   
+    <!--Mahdi's header nav bar wip-->
+        <b></b>
+        <a href="index.html">Home</a>
+        <a href="beeQuiz.html">Quiz</a>
+        <a class="active" href="canvas-guy.html">Canvas Guy</a>
+        <a href="about.html">About</a>
+
+    </div>
+    <main>
+      <canvas id="canvas-guy" width="500" height="500" aria-label="Canvas rendering with interactive eye tracking"></canvas>
+    </main>
+    <script>
+      const canvas = document.getElementById('canvas-guy');
+      const ctx = canvas.getContext('2d');
+      const photo = new Image();
+      photo.src = 'images/guy.jpg';
+
+      const center = { x: canvas.width / 2, y: canvas.height / 2 };
+      const eyeRadius = 20;
+      const pupilRadius = 3;
+      const pupilTravel = eyeRadius - pupilRadius - 6;
+      let pointer = { x: center.x, y: center.y };
+
+      const defaultEyes = {
+        left: { x:  222, y:  216 },
+        right: { x:  260, y:  254 }
+      };
+
+      function drawEye(eye) {
+        ctx.fillStyle = '#ffffff';
+        ctx.beginPath();
+        ctx.ellipse(eye.x, eye.y, eyeRadius, eyeRadius * 0.75, 0, 0, Math.PI * 2);
+        ctx.fill();
+
+        const dx = pointer.x - eye.x;
+        const dy = pointer.y - eye.y;
+        const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+        const clampedX = eye.x + (dx / dist) * Math.min(dist, pupilTravel);
+        const clampedY = eye.y + (dy / dist) * Math.min(dist, pupilTravel);
+
+        ctx.fillStyle = '#1c1c1c';
+        ctx.beginPath();
+        ctx.ellipse(clampedX, clampedY, pupilRadius, pupilRadius * 0.9, 0, 0, Math.PI * 2);
+        ctx.fill();
+
+      }
+
+      function render() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        if (photo.complete && photo.naturalWidth) {
+          ctx.drawImage(photo, 0, 0, canvas.width, canvas.height);
+        } else {
+          ctx.fillStyle = '#121212';
+          ctx.fillRect(0, 0, canvas.width, canvas.height);
+        }
+        drawEye(defaultEyes.left);
+        drawEye(defaultEyes.right);
+        requestAnimationFrame(render);
+      }
+
+      function updatePointer(event) {
+        const rect = canvas.getBoundingClientRect();
+        pointer = {
+          x: event.clientX - rect.left,
+          y: event.clientY - rect.top
+        };
+      }
+
+      function logClick(event) {
+        const rect = canvas.getBoundingClientRect();
+        const clickPoint = {
+          x: event.clientX - rect.left,
+          y: event.clientY - rect.top
+        };
+        pointer = clickPoint;
+      }
+
+
+
+      window.addEventListener('mousemove', updatePointer);
+      canvas.addEventListener('mouseleave', () => {
+        pointer = { ...center };
+      });
+      canvas.addEventListener('click', logClick);
+
+      render();
+    </script>
+  </body>
+</html>
