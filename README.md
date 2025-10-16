@@ -7,6 +7,11 @@ Jonathan Renan Esponilla
 
 Keertan Patel
 
+Pre-Git
+In the pre github sessions of the class a majority of my time was spent in helping troubleshoot why the git was not working. This included the attempt to create a new git on the server rename BeeHive instead of the original Bee. Outside of that my other contributions were minor at the time mainly just deciding on the creation of the about page and adding my info link to the webpage.
+Git
+Once we began using github I began the construction of my about page. The about page is simple with some comedic aspects to it. I chose the about page because it is important for any company or website to have an about page explainging what the organizaion is about. The construction includes some basic sections that with infomration about bees that I find interesting, very few things. Beyond that I helped structure our git to be more organized by creating the images directory and moving all images into it. Once moved I also changed the paths of image paths in html files if needed. I also helped fix the navigation bar on the canvas guy page which was a simple fix. Beyond that most of my contributions were in helping trouble shoot issues that came up here and there. One example being specific image path issues that occured on our github depolyment of the website. 
+
 Mahdi Almosawi
 
 Thea Hird
