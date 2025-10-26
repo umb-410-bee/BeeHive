@@ -1,7 +1,5 @@
 # README - Bee Group
 
-Ayden Diel
-
 Edward Gaibor
 * I was mostly owning front-end styling and UX polish.
 * I designed the creative touches (ASCII bees), then converted everyone’s hrefs into button-style links based on the professor’s feedback.
@@ -158,6 +156,22 @@ This is a majority of our progress in the website itself, so I think it's alrigh
 ## Mahdi
 
 For this project, my main contribution was the navigation bar for the site. First and foremost, I ensured it was functional in allowing the user to access any of the 4 pages, home, about, beequiz, and canvas-guy, from any page they are on. Next was ensuring it aesthetically matched the page, giving it a yellow color scheme, with a slightly darker yellow that highlights whichever page the user is currently viewing, as well as another darker yellow for any of the buttons the user is hovering their mouse over, to add responsiveness to the users actions. I was also responsible for fixing some of the overall style issues and made sure the general format (margins, navbar size and border) was unified accross all pages.
+
+## Ayden
+
+My role in this project was to facilitate the use of GitHub and Git for collaboration and 
+hosting our website. This included settings up our GitHub repository, inviting each contributor, 
+configuring the respository permissions to ensure a pull request had to be opened for each merge 
+into our main branch, and configuring GitHub Pages to publicly & automatically host our website 
+for free.
+
+Additionally, I spent a lot of time in class teaching other group members how to use the collaboration 
+features offered by git and GitHub correctly by individually troubleshooting their setups as well as 
+creating a simple end-to-end guide for how to commit changes and sync them with our main branch properly.
+
+Finally, I implemented the the [Canvas Guy](https://umb-410-bee.github.io/BeeHive/canvas-guy.html)
+page, which includes a character whose eyes follow your cursor around, as a reference to the popular 
+Bee movie.
 
 ---
 
