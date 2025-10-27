@@ -1,6 +1,6 @@
 # README - Bee Group
 
-Edward Gaibor
+## Edward Gaibor
 * I was mostly owning front-end styling and UX polish.
 * I designed the creative touches (ASCII bees), then converted everyone’s hrefs into button-style links based on the professor’s feedback.
 * I wired member info `.txt` links—started with symlinks on the school server and later moved to straightforward links once we migrated to GitHub.
@@ -14,8 +14,13 @@ Edward Gaibor
 * I presented who I am, what we built, my role on the team, and our group progress. Lately I’ve been focused on deployment hygiene and keeping the front end clean and consistent.
 * Net impact: I helped stabilize the workflow (branches/PRs + project board), resolved collaboration pain by helping moving to GitHub, and improved the site’s visual identity so the team can have a more structured way of displaying their info.txt.
 
-Keertan Patel
+## Keertan Patel
 
+Pre-Git
+In the pre github sessions of the class a majority of my time was spent in helping troubleshoot why the git was not working. This included the attempt to create a new git on the server rename BeeHive instead of the original Bee. Outside of that my other contributions were minor at the time mainly just deciding on the creation of the about page and adding my info link to the webpage.
+
+Git
+Once we began using github I began the construction of my about page. The about page is simple with some comedic aspects to it. I chose the about page because it is important for any company or website to have an about page explainging what the organizaion is about. The construction includes some basic sections that with infomration about bees that I find interesting, very few things. Beyond that I helped structure our git to be more organized by creating the images directory and moving all images into it. Once moved I also changed the paths of image paths in html files if needed. I also helped fix the navigation bar on the canvas guy page which was a simple fix. Beyond that most of my contributions were in helping trouble shoot issues that came up here and there. One example being specific image path issues that occured on our github depolyment of the website. 
 
 ## Thea Hird
 
@@ -155,7 +160,12 @@ This is a majority of our progress in the website itself, so I think it's alrigh
 
 ## Mahdi
 
-For this project, my main contribution was the navigation bar for the site. First and foremost, I ensured it was functional in allowing the user to access any of the 4 pages, home, about, beequiz, and canvas-guy, from any page they are on. Next was ensuring it aesthetically matched the page, giving it a yellow color scheme, with a slightly darker yellow that highlights whichever page the user is currently viewing, as well as another darker yellow for any of the buttons the user is hovering their mouse over, to add responsiveness to the users actions. I was also responsible for fixing some of the overall style issues and made sure the general format (margins, navbar size and border) was unified accross all pages.
+For this project, my main contribution was the navigation bar for the site. First and foremost, I ensured it was
+functional in allowing the user to access any of the 4 pages, home, about, beequiz, and canvas-guy, from any page they are on.
+Next was ensuring it aesthetically matched the page, giving it a yellow color scheme, with a slightly darker yellow that 
+highlights whichever page the user is currently viewing, as well as another darker yellow for any of the buttons the user
+is hovering their mouse over, to add responsiveness to the users actions. I was also responsible for fixing some of the 
+overall style issues and made sure the general format (margins, navbar size and border) was unified accross all pages.
 
 ## Ayden
 
