@@ -183,6 +183,25 @@ Finally, I implemented the the [Canvas Guy](https://umb-410-bee.github.io/BeeHiv
 page, which includes a character whose eyes follow your cursor around, as a reference to the popular 
 Bee movie.
 
+### Testing
+I tested many different elements of our projects, such as:
+- **Automated Deployment via GitHub Pages**: After instantiating the GitHub repo and configuring GitHub pages, I created 
+  a [sample `index.html`](https://github.com/umb-410-bee/BeeHive/blob/36779f84f9cffa97e0db955377ad0471e6916774/index.html)
+  page, and committed it to the `main` branch. The expected behavior when doing this was that, when viewed in the browser, 
+  our GitHub pages (github.io) URL would display the rendered contents of that HTML file, which it did.
+- **GitHub main branch protection**: I configured our repo such that nobody would be allowed to push directly 
+  to the main branch without opening a pull request. I tried pushing to main myself, which failed as expected, and 
+  merged [the first pull request](https://github.com/umb-410-bee/BeeHive/pull/9) with a small feature to ensure that 
+  it would sync changes with the main branch properly.
+- **GitHub workflow guide for teammates**: I created a step-by-step guide for using GitHub for my teammates once we had our 
+  repo configured, and presented it to them. I tested this by having each teammate try to create a branch, push some changes 
+  to it, open a pull request, merge the pull request, and then pull the updates to their local repo. After the first iteration 
+  of this, I found that there were some misunderstandings based on my wording in the guide, so I updated it to make it clearer.
+- **Canvas Guy Page**: I created the [canvas guy page](https://umb-410-bee.github.io/BeeHive/canvas-guy.html), and tested it by 
+  manually visiting the page, hovering my cursor around the screen, and ensuring that it followed the mouse properly. I did not 
+  see a need for further testing, as the APIs used aren't specific to any particular browser / operating system, so if it worked 
+  for me it would most likely work for anyone on the site.
+
 ---
 
 ```
